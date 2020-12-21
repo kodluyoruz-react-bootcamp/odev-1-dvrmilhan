@@ -1,0 +1,20 @@
+{
+  "name": "Homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan/issues"
+  },
+  "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan#readme"
+}
