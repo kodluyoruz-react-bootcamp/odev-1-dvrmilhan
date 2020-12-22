@@ -1,14 +1,15 @@
 {
-    "name": "Homework1",
+    "name": "odev1",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node src/app.js"
+        "start": "node src/app.js",
+        "startService": "node src/lib/service.js"
     },
     "repository": {
-        "type": "git",
+        "type": "module",
         "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan.git"
     },
     "keywords": [],
@@ -19,6 +20,7 @@
     },
     "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan#readme",
     "dependencies": {
-        "axios": "^0.21.0"
+        "axios": "^0.21.0",
+        "babel": "^6.23.0"
     }
 }

@@ -1,8 +1,18 @@
-const axios = require('axios').default;
+const axios = require('axios');
 
-const ENDPOINT = "https://jsonplaceholder.typicode.com/users";
+const ENDPOINT = "https://jsonplaceholder.typicode.com";
 
+
+//export default
 async function getData(idOfData) {
-    const { data } = await axios.get(`${ENDPOINT}/${idOfData}`);
-    console.log(data);
+
+    const { data: users } = await axios.get(`${ENDPOINT}/users/${idOfData}`);
+    const { data: posts } = await axios.get(`${ENDPOINT}/posts/${idOfData}`);
+    console.log(users, posts);
+
 }
+
+
+// module.exports = {
+//     getData,
+// };
