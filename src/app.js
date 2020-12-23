@@ -1,1 +1,0 @@
-//import { getData } from './service.js';
