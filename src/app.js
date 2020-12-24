@@ -1,9 +1,9 @@
-// import { getData } from '';
+import getData from './lib/service';
 
-const service = require('./lib/service');
-
-const getUserData = service.getData(1);
+const getUserData = getData(4);
 
 getUserData.then(function(result) {
     console.log(result);
-});
+}).catch(function(error) {
+    console.log(error);
+})

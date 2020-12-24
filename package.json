@@ -8,7 +8,7 @@
         "build": "sucrase ./src -d ./dist --transforms imports"
     },
     "repository": {
-        "type": "git",
+        "type": "module",
         "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan.git"
     },
     "keywords": [],
