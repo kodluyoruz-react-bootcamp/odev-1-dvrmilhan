@@ -1,0 +1,29 @@
+{
+    "name": "odev-1-dvrmilhan",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./dist/app.js",
+        "dev": "sucrase-node src/app.js",
+        "build": "sucrase ./src -d ./dist --transforms imports"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan/issues"
+    },
+    "homepage": "https://github.com/kodluyoruz-react-bootcamp/odev-1-dvrmilhan#readme",
+    "devDependencies": {
+        "sucrase": "^3.16.0"
+    },
+    "dependencies": {
+        "axios": "^0.21.1"
+    },
+
+    "description": ""
+}
